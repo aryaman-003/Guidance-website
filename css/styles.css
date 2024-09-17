@@ -1,0 +1,194 @@
+/*CSS For the top section*/
+#Guidance{
+    color: white;
+} 
+.section{
+    background-image: url(../images/index-background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    width: 100%;
+    position: sticky;
+}
+.navbar a{
+    color: blue;
+    margin-left: 40px;
+    margin-right: 40px;
+    line-height: 40px;
+}
+.navbar a:hover{
+    cursor: pointer;
+}
+#logo{
+    color: #ff006e;
+    line-height: 40px;
+}
+#logo:hover{
+    cursor: pointer;
+}
+p{
+    color: white;
+    font-size: 25px;
+}
+.highlight{
+    color: aqua;
+    font-weight: bold;
+    font-size: medium;
+    font-size: 25px;
+}
+.message{
+    width: 50%;
+    margin: auto;
+}
+input[type="radio"]{
+        -webkit-appearance: radio;
+    }
+#one-line{
+    color: black;
+}
+input[type=submit] {
+    background-color: #62529c;
+    border-radius: 15px;
+    margin-left: 30px;
+}
+#main{
+    background-color: #ff006e;
+}
+
+/*Buyer section css*/
+#buyer-heading{
+    font-size: 30px;
+}
+.second-part{
+    background-color: #ffb3b3;
+}
+.subpart{
+    max-width: 50%;
+    margin: auto;
+}
+.buyers{
+    font-weight: bold;
+    font-size: 20px;
+}
+#buyer-heading{
+    text-align: center;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ol a{
+    color: blue;
+}
+ol a:hover{
+    cursor: pointer;
+    color: yellowgreen;
+}
+.third-part{
+    background-color: #ca7f68;
+}
+.investment{
+    font-size: larger;
+    font-weight: bold;
+}
+.Cities{
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.Important{
+    color: blue;
+}
+#form{
+    text-align: center;
+    font-size: 40px;
+}
+
+/*For seller css*/
+p{
+    color: black;
+}
+ol a{
+    color: blue;
+}
+ol a:hover{
+    cursor: pointer;
+    color: yellowgreen;
+}
+.sellers{
+    font-weight: bold;
+    font-size: 20px;
+}
+#seller-heading{
+    text-align: center;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.first-part{
+    background-color: aquamarine;
+}
+.subpart{
+    max-width: 50%;
+    margin: auto;
+}
+.fourth-part{
+    background-color: #e5ffe1;
+}
+.Marketing{
+    font-size: 40px;
+}
+#suggestion{
+    background-color: coral;
+}
+#warning{
+    background-color: orangered;
+}
+#knowledge{
+    background-color: aquamarine;
+}
+.fourth-part{
+    background-color: #e5ffe1;
+}
+.Heading-one{
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkred;
+}
+.Heading-two{
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    color: crimson;
+}
+
+/*about us*/
+.about-us{
+    background-color: lightcoral;
+}
+.about{
+    background-color: aquamarine;
+}
+a:hover{
+    color: blue;
+    cursor: pointer;
+}
+#us{
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#founders{
+    font-size: 25px;
+}
+#big-boss{
+    font-size: 25px;
+}
+#boss{
+    font-size: 25px;
+}
