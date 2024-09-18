@@ -203,22 +203,22 @@ please let us know your opinions.</p>
           <br>
           <h1>Lift Necessary:</h1>
           <label for="Lift">
-            <input type="radio" id="Lift"/>
+            <input type="radio" id="Lift" name="Lift" value="Yes"/>
             Yes
           </label>
           <label for="Lift"></label>
-            <input type="radio" id="Lift"/>
+            <input type="radio" id="Lift" name="Lift" value="No"/>
             No
           </label>
           <br>
           <br>
           <h1>Parking Required:</h1>
           <label for="Parking">
-            <input type="radio" id="Parking"/>
+            <input type="radio" id="Parking" name="Parking" value="Yes"/>
             Yes
           </label>
           <label for="Parking"></label>
-            <input type="radio" id="Parking"/>
+            <input type="radio" id="Parking" name="Parking" value="No"/>
             No
           </label>
           <br>
@@ -311,6 +311,31 @@ please let us know your opinions.</p>
     <a href="mailto:batman@gmail.com">Send Email</a>
     <p>Contact No: 9147780105</p>
         </section>
+    <!--Suggestions and Feedbacks-->
+     <section>
+        <p>Please tell us how we can further improve our Services:</p>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="dcea6b1d-59bd-4d8a-9cde-427732bc350a">
+            <h1>How do you rate your Overall Experience ?</h1>
+            <label for="feedback">
+                <input type="radio" id="feedback" name="feedback" value="Good"/>
+                Good
+            </label>
+            <label for="feedback"></label>
+                <input type="radio" id="feedback" name="feedback" value="Bad"/>
+                Bad
+            </label>
+            <label for="feedback"></label>
+                <input type="radio" id="feedback" name="feedback" value="Excellent"/>
+                Excellent
+            </label>
+            <h1>Comments:</h1>
+            <label for="comments"></label>
+            <textarea id="comments" name="comments" rows="4" cols="25"></textarea>
+            <br>
+            <input type="submit" value="submit"/>
+        </form>
+     </section>
 
 </body>
 </html>
