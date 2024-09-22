@@ -39,6 +39,105 @@ Therefore your <span class="highlight">feedbacks and suggestions</span> are very
 please let us know your opinions.</p>
 </div>
 </section>
+    <br>
+    <br>
+    <p id="form">Please enter your Information regarding what kind of Home you are looking for:</p>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="dcea6b1d-59bd-4d8a-9cde-427732bc350a">
+            <br>
+            <label for="Full Name">Full Name:</label>
+            <input type="text" id="Full Name" name="Full Name" required placeholder="Please enter your full name">
+            <br>
+            <br>
+            <label for="Phone Number">Phone Number-</label> 
+            <input type="tel" name="Phone Number" placeholder="Please enter your number" required>
+            <br>
+            <br>
+            <p id="one-line">Please Choose the kind of home you are looking for:</p>
+            <br>
+            <input type="radio" id="Standalone" name="kind of home" value="Standalone">
+          <label for="Standalone">Standalone Apartment</label><br>
+          <input type="radio" id="Complex" name="kind of home" value="Complex">
+          <label for="Complex">Complex Apartment</label><br>
+          <input type="radio" id="Bungalow" name="kind of home" value="Bungalow">
+          <label for="Bungalow">Bungalow</label>
+          <br>
+          <br>
+          <label for="location" >Choose your preferred location:</label>
+          <input list="locations" name="location" required>
+          <datalist id="locations">
+            <option value="Nayabad"></option>
+            <option value="Mukundapur"></option>
+            <option value="Kalikapur"></option>
+            <option value="Santoshpur"></option>
+            <option value="Jadavpur"></option>
+            <option value="Golpark"></option>
+            <option value="Newtown"></option>
+            <option value="Garfa"></option>
+            <option value="E.M.Bypass"></option>
+            <option value="Rajarhat"></option>
+            <option value="Prince Anwar Shah"></option>
+            <option value="Salt Lake"></option>
+          </datalist>
+          <br>
+          <br>
+          <label for="floor">Please select the floor:</label>
+          <input type="number" name="floor">
+          <br>
+          <br>
+          <label for="Area of home">Area in sqft:</label>
+          <input type="number" name="Area of home" placeholder="Please enter sqft area" required>
+          <br>
+          <label for="Number of rooms">Number of rooms:</label>
+          <input type="number" name="Number of rooms">
+          <br>
+          <label for="Number of bathrooms">Number of bathrooms:</label>
+          <input type="number" name="Number of bathrooms">
+          <br>
+          <br>
+          <h1>Lift Necessary:</h1>
+          <label for="Lift">
+            <input type="radio" id="Lift" name="Lift" value="Yes"/>
+            Yes
+          </label>
+          <label for="Lift"></label>
+            <input type="radio" id="Lift" name="Lift" value="No"/>
+            No
+          </label>
+          <br>
+          <br>
+          <h1>Parking Required:</h1>
+          <label for="Parking">
+            <input type="radio" id="Parking" name="Parking" value="Yes"/>
+            Yes
+          </label>
+          <label for="Parking"></label>
+            <input type="radio" id="Parking" name="Parking" value="No"/>
+            No
+          </label>
+          <br>
+          <br>
+          <label for="Budget">Your personal Budget:</label>
+          <input type="number" name="Budget" required placeholder="Please enter max budget">
+          <br>
+          <label for="INR">
+            <input type="radio" id="INR" name="INR" value="Lakh"/>
+            Lakh
+          </label>
+          <label for="INR">
+            <input type="radio" id="INR" name="INR" value="Crore"/>
+            Crore
+            <br>
+          <label for="time period for possession">Time period within which you would move in:</label>
+          <input type="date" name="time period for possession">
+          <br>
+          <label for="Day">Day and time preferred to be contacted on:</label>
+          <input type="datetime-local" name="Day">
+          <br>
+          <input type="submit" value="Submit" id="submit">
+        </form>
+    <br>
+    <br>
 
 <!--Buyer Section-->
 <h1 id="buyer-heading">For Home Buyers</h1>
@@ -147,101 +246,7 @@ please let us know your opinions.</p>
                 <img src="images/Kolkata.jpg">
         </ul>
         <br>
-        <p id="form">Please enter your Information regarding what kind of Home you are looking for:</p>
-        <form action="https://api.web3forms.com/submit" method="POST">
-            <input type="hidden" name="access_key" value="dcea6b1d-59bd-4d8a-9cde-427732bc350a">
-            <br>
-            <label for="Full Name">Full Name:</label>
-            <input type="text" id="Full Name" name="Full Name" required placeholder="Please enter your full name">
-            <br>
-            <br>
-            <label for="Phone Number">Phone Number-</label> 
-            <input type="tel" name="Phone Number" placeholder="Please enter your number" required>
-            <br>
-            <br>
-            <p id="one-line">Please Choose the kind of home you are looking for:</p>
-            <br>
-            <input type="radio" id="Standalone" name="kind of home" value="Standalone">
-          <label for="Standalone">Standalone Apartment</label><br>
-          <input type="radio" id="Complex" name="kind of home" value="Complex">
-          <label for="Complex">Complex Apartment</label><br>
-          <input type="radio" id="Bungalow" name="kind of home" value="Bungalow">
-          <label for="Bungalow">Bungalow</label>
-          <br>
-          <br>
-          <label for="location" >Choose your preferred location:</label>
-          <input list="locations" name="location" required>
-          <datalist id="locations">
-            <option value="Nayabad"></option>
-            <option value="Mukundapur"></option>
-            <option value="Kalikapur"></option>
-            <option value="Santoshpur"></option>
-            <option value="Jadavpur"></option>
-            <option value="Golpark"></option>
-            <option value="Newtown"></option>
-            <option value="Garfa"></option>
-            <option value="E.M.Bypass"></option>
-            <option value="Rajarhat"></option>
-            <option value="Prince Anwar Shah"></option>
-            <option value="Salt Lake"></option>
-          </datalist>
-          <br>
-          <br>
-          <label for="floor">Please select the floor:</label>
-          <input type="number" name="floor">
-          <br>
-          <br>
-          <label for="Area of home">Area in sqft:</label>
-          <input type="number" name="Area of home" placeholder="Please enter sqft area" required>
-          <br>
-          <label for="Number of rooms">Number of rooms:</label>
-          <input type="number" name="Number of rooms">
-          <br>
-          <label for="Number of bathrooms">Number of bathrooms:</label>
-          <input type="number" name="Number of bathrooms">
-          <br>
-          <br>
-          <h1>Lift Necessary:</h1>
-          <label for="Lift">
-            <input type="radio" id="Lift" name="Lift" value="Yes"/>
-            Yes
-          </label>
-          <label for="Lift"></label>
-            <input type="radio" id="Lift" name="Lift" value="No"/>
-            No
-          </label>
-          <br>
-          <br>
-          <h1>Parking Required:</h1>
-          <label for="Parking">
-            <input type="radio" id="Parking" name="Parking" value="Yes"/>
-            Yes
-          </label>
-          <label for="Parking"></label>
-            <input type="radio" id="Parking" name="Parking" value="No"/>
-            No
-          </label>
-          <br>
-          <br>
-          <label for="Budget">Your personal Budget:</label>
-          <input type="number" name="Budget" required placeholder="Please enter max budget">
-            <label for="INR">
-            <input type="radio" id="INR" name="INR" value="Lakh"/>
-            Lakh
-          </label>
-          <label for="INR">
-            <input type="radio" id="INR" name="INR" value="Crore"/>
-            Crore
-          </label>
-            <br>
-          <label for="time period for possession">Time period within which you would move in:</label>
-          <input type="date" name="time period for possession">
-          <br>
-          <label for="Day">Day and time preferred to be contacted on:</label>
-          <input type="datetime-local" name="Day">
-          <br>
-          <input type="submit" value="Submit" id="submit">
-        </form>
+
     </section>
     <br>
     <br>
