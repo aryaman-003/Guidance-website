@@ -61,7 +61,7 @@ body{
     font-size: 40px;
 }
 #enlistment-form{
-    background-image: url(/images/luminous-bg.jpg);
+    background-image: url(luminous-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding-left: 45px;
