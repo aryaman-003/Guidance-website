@@ -73,7 +73,7 @@ body{
     font-size: 40px;
 }
 #enlistment-form{
-    background-image: url(/images/luminous-bg.jpg);
+    background-image: url(luminous-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding-left: 45px;
@@ -92,7 +92,7 @@ text-align: center;
 
 /*for cement*/
 #Contacts{
-    background-image: url(/images/cement-bg.jpg);
+    background-image: url(cement-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -117,7 +117,7 @@ text-align: center;
 }
 /*for iron*/
 #Contacts-two{
-    background-image: url(/images/iron-bg.jpg);
+    background-image: url(iron-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
