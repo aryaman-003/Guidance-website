@@ -1,0 +1,133 @@
+/*for navbar*/
+#brand-name{
+    padding-left: 10px;
+    color: #851e3e;
+    font-size: 30px;
+}
+#navbar{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #D1C4EC;
+    position: fixed;
+}
+@media(max-width: 550px){
+    #navbar{
+        display: flex;
+        flex-direction: column;
+    }
+}
+#navbar ul{
+    display: flex;
+    gap: 1rem;
+    padding-right: 10px;
+
+}
+#navbar ul a:hover{
+    cursor: pointer;
+    background-color: aqua;
+    transition: 1s;
+}
+#buyers{
+    color: #ff3377;
+}
+#sellers{
+    color: #ff3377;
+}
+#about{
+    color: #ff3377;
+}
+#blogs{
+    color: #ff3377;
+}
+#feedback-nav{
+    color: #ff3377;
+}
+/**/
+/*last part*/
+#last-part{
+    background-image: url(../images/last-part.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/*about us*/
+
+a:hover{
+    color: blue;
+    cursor: pointer;
+}
+#us{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*for founders and contact*/
+
+#FC{
+    width: 100%;
+    height: 70px;
+   display: flex; 
+   justify-content: center;
+   margin-bottom: 20px;
+}
+#Founders{
+    width: 50%;
+    height: 90px;
+    background-color: hsl(334, 100%, 50%);
+    text-align: center;
+    overflow: hidden;
+}
+#Contact{
+    width: 50%;
+    height: 90px;
+    background-color: #62529c;
+    text-align: center;
+    overflow: hidden;
+}
+#founders{
+    font-size: 25px;
+}
+#big-boss{
+    font-size: 25px;
+}
+#mail{
+    font-size: 27px;
+}
+#boss{
+    font-size: 25px;
+}
+#objective{
+    font-size: 25px;
+}
+#about-bg{
+    width: 100%;
+    height: 400px;
+}
+/*icons*/
+#follow-heading{
+    font-size: 30px;
+}
+.fa-facebook{
+    font-size: 25px;
+}
+.fa-instagram{
+    font-size: 25px;
+}
+/*tags*/
+#tags{
+    display: flex;
+    gap: 1rem;
+}
+#tag-title{
+    font-size: 30px;
+}
+#hashtags{
+    background-color: #84a98c;
+    font-size: 18px;
+}

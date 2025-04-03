@@ -1,0 +1,208 @@
+body{
+    background-color: #ABA4AA;
+}
+/*for navbar*/
+#brand-name{
+    padding-left: 10px;
+    color: #851e3e;
+    font-size: 30px;
+}
+#navbar{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #D1C4EC;
+    position: fixed;
+}
+@media(max-width: 550px){
+    #navbar{
+        display: flex;
+        flex-direction: column;
+    }
+}
+#navbar ul{
+    display: flex;
+    gap: 1rem;
+    padding-right: 10px;
+
+}
+#navbar ul a:hover{
+    cursor: pointer;
+    background-color: aqua;
+    transition: 1s;
+}
+#buyers{
+    color: #ff3377;
+}
+#sellers{
+    color: #ff3377;
+}
+#about{
+    color: #ff3377;
+}
+#blogs{
+    color: #ff3377;
+}
+#feedback-nav{
+    color: #ff3377;
+}
+/**/
+#title{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 1.5rem;
+}
+
+
+/*for first container*/
+.Container{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    column-gap: 1.5rem;
+    padding-bottom: 1rem;
+}
+@media(max-width: 900px) {
+    .Container{
+        flex-direction: column;
+    }
+}
+#c1-title{
+    text-align: center;
+    margin-bottom: 0.5rem;
+    font-size: 25px;
+}
+#c1-para{
+    text-align: center;
+    font-size: 18px;
+}
+#rmlink{
+    color: blue;
+}
+#rmlink:hover{
+    cursor: pointer;
+}
+#first-box{
+    background-color: lightcoral;
+    border: 6px solid #B7B1F2;
+    border-radius: 12px;
+}
+#second-box{
+    background-color: lightgreen;
+    border: 6px solid royalblue;
+    border-radius: 12px;
+}
+#third-box{
+    background-color: #e68bbe;
+    border: 6px solid crimson;
+    border-radius: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+/*for second container*/
+.Container-two{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    column-gap: 1.5rem;
+}
+@media(max-width: 900px) {
+    .Container-two{
+        flex-direction: column;
+    }
+}
+#rmlink-two{
+    color: blue;
+}
+#rmlink-two:hover{
+    cursor: pointer;
+}
+#c2-title{
+    text-align: center;
+    margin-bottom: 0.5rem;
+    font-size: 25px;
+}
+#c2-para{
+    text-align: center;
+    font-size: 18px;
+}
+#fourth-box{
+    background-color: #ffcea5;
+    border: 6px solid darkmagenta ;
+    border-radius: 12px;
+}
+#fifth-box{
+    background-color: fuchsia;
+    border: 6px solid lightcoral ;
+    border-radius: 12px;
+}
+#sixth-box{
+    background-color: #B7B1F2;
+    border: 6px solid aqua;
+    border-radius: 12px;
+}
+
+
+/*tags*/
+#tags{
+    display: flex;
+    gap: 1rem;
+}
+#tag-title{
+    font-size: 30px;
+}
+#hashtags{
+    background-color: #84a98c;
+    font-size: 18px;
+}
+
+/*icons*/
+#follow-heading{
+    font-size: 30px;
+}
+.fa-facebook{
+    font-size: 25px;
+}
+.fa-instagram{
+    font-size: 25px;
+}
+
+/*for video*/
+#video-bg{
+    width: 100%;
+    height: 800px;
+}
+#video{
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+}
+@media(max-width:895px){
+    #video-bg{
+        width: 100%;
+        height: 800px;
+        background-image: url(/images/last-image.jpg);
+        background-repeat: no-repeat;
+        background-position: fixed;
+        background-size: cover;
+    }
+}
+#last-text{
+    width: 100%;
+    padding-top: 300px;
+    text-align: center;
+}
+#last-line{
+    font-size: 40px;
+    color: white;
+}

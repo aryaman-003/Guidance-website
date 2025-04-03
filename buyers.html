@@ -1,0 +1,267 @@
+<!--Buyer Section-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/buyers.css" rel="stylesheet"/>
+    <link href="/css/reset.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Buyer-Section</title>
+</head>
+<body>
+  <!--Navbar-->
+  <div id="navbar">
+    <p id="brand-name">Guidance</p>
+    <div id="links">
+        <ul>
+            <li><a id="buyers" target="_blank" href="/html/buyers.html">For Buyers</a></li>
+            <li><a id="sellers" target="_blank" href="/html/sellers.html">For Sellers</a></li>
+            <li><a id="feedback-nav" target="_blank" href="/html/feedback.html">Feedback</a></li>
+            <li><a id="blogs" target="_blank" href="/html/blogs.html">Blogs</a></li>
+            <li><a id="about" target="_blank" href="/html/about us.html">About Us</a></li>
+            
+        </ul>
+    </div>
+   </div>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+<h1 id="enlistment-heading">For Buyers</h1>
+<p id="form">Please enter your Information regarding what kind of Home you are looking for:</p>
+<div id="enlistment-form">
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="dcea6b1d-59bd-4d8a-9cde-427732bc350a">
+            <br>
+            <label for="Full Name">Full Name:</label>
+            <input type="text" id="Full Name" name="Full Name" required placeholder="Please enter your full name">
+            <br>
+            <br>
+            <label for="Phone Number">Phone Number-</label> 
+            <input type="tel" name="Phone Number" placeholder="Please enter your number" required>
+            <br>
+            <br>
+            <p id="one-line">Please Choose the kind of home you are looking for:</p>
+            <br>
+            <input type="radio" id="Standalone" name="kind of home" value="Standalone">
+          <label for="Standalone">Standalone Apartment</label><br>
+          <input type="radio" id="Complex" name="kind of home" value="Complex">
+          <label for="Complex">Complex Apartment</label><br>
+          <input type="radio" id="Bungalow" name="kind of home" value="Bungalow">
+          <label for="Bungalow">Bungalow</label>
+          <br>
+          <br>
+          <label for="location" >Choose your preferred location:</label>
+          <input list="locations" name="location" required>
+          <datalist id="locations">
+            <option value="Nayabad"></option>
+            <option value="Mukundapur"></option>
+            <option value="Kalikapur"></option>
+            <option value="Santoshpur"></option>
+            <option value="Jadavpur"></option>
+            <option value="Golpark"></option>
+            <option value="Newtown"></option>
+            <option value="Garfa"></option>
+            <option value="E.M.Bypass"></option>
+            <option value="Rajarhat"></option>
+            <option value="Prince Anwar Shah"></option>
+            <option value="Salt Lake"></option>
+          </datalist>
+          <br>
+          <br>
+          <label for="floor">Please select the floor:</label>
+          <input type="number" name="floor">
+          <br>
+          <br>
+          <label for="Area of home">Area in sqft:</label>
+          <input type="number" name="Area of home" placeholder="Please enter sqft area" required>
+          <br>
+          <label for="Number of rooms">Number of rooms:</label>
+          <input type="number" name="Number of rooms">
+          <br>
+          <label for="Number of bathrooms">Number of bathrooms:</label>
+          <input type="number" name="Number of bathrooms">
+          <br>
+          <br>
+          <h1>Lift Necessary:</h1>
+          <label for="Lift">
+            <input type="radio" id="Lift" name="Lift" value="Yes"/>
+            Yes
+          </label>
+          <label for="Lift"></label>
+            <input type="radio" id="Lift" name="Lift" value="No"/>
+            No
+          </label>
+          <br>
+          <br>
+          <h1>Parking Required:</h1>
+          <label for="Parking">
+            <input type="radio" id="Parking" name="Parking" value="Yes"/>
+            Yes
+          </label>
+          <label for="Parking"></label>
+            <input type="radio" id="Parking" name="Parking" value="No"/>
+            No
+          </label>
+          <br>
+          <br>
+          <label for="Budget">Your personal Budget:</label>
+          <input type="number" name="Budget" required placeholder="Please enter max budget">
+          <br>
+          <label for="INR">
+            <input type="radio" id="INR" name="INR" value="Lakh"/>
+            Lakh
+          </label>
+          <label for="INR">
+            <input type="radio" id="INR" name="INR" value="Crore"/>
+            Crore
+            <br>
+          <label for="time period for possession">Time period within which you would move in:</label>
+          <input type="date" name="time period for possession">
+          <br>
+          <label for="Day">Day and time preferred to be contacted on:</label>
+          <input type="datetime-local" name="Day">
+          <br>
+          <input type="submit" value="Submit" id="submit">
+        </form>
+    </div>
+    <br>
+    <br>
+    <!--Information for Buyers Section-->
+    <h1 id="investment-cities">Top Cities to Invest in Real Estate</h1>
+    <div id="Kol-container">
+      <h1 id="kol">Kolkata</h1>
+      <div>
+        <img id="kol-firstimage" src="/images/kol-imageone.jpg" alt="">
+      </div>
+      <p id="reason-bg"><span id="reasons">Reasons to Invest/Buy a home in Kolkata:</span>According to a recent report, property prices in Kolkata have appreciated by 40% over the last decade or so, the least jump among the top seven metros. During the same time, annual household income level in the city grew by 153%, higher than Bangalore, Delhi, and Chennai, the report adds. This income spike is approximately quadruple that of the percentage rise in property prices in the metro in this same period, thus boosting affordability.<br>
+        Robust infrastructure growth:
+        The rapid growth of infrastructure in recent years, including smooth transportation, better connectivity, and the smart city concept has substantially contributed to the buoyancy in Kolkata’s real estate market. The economy has experienced robust all-round growth, riding on the crest of intense growth in the IT, manufacturing, and education sectors, among others.
+        
+        Affordability factor:
+        Given its relative affordability as compared to other major metros like Delhi NCR, Mumbai, Bengaluru, or Pune, Kolkata offers a wonderful option for investment in the real estate market.
+        
+        Industrial growth driving buoyancy:
+        The continued spurt in growth of the IT and ITeS sector, besides a clutch of fintech firms setting up shop, together with the proliferation of new educational institutions have all contributed to the continued positivity in the real estate market sentiment, fueling demand for homes, offices as well as retail spaces.
+        
+        Metro connectivity:
+        The addition of new Metro lines and extension of the existing ones have also injected fresh energy into the real estate market, making the city’s fringes like Baranagar and Baruipur more accessible. Proximity to Metro routes is a massive energizer in 2025, boosting demand for both residential and commercial properties.
+        
+        Government initiatives:
+        To add to all these factors, the government has also taken a raft of proactive measures to promote growth in Kolkata’s real estate sector. These measures are encouraging speculators and end-users alike to invest in new properties. Market analysts predict this trend to sustain itself, making 2025 the perfect time to invest in Kolkata’s property market.
+        </p>
+        <br>
+        <p id="roi-bg"><span id="ROI">Return on Investment:</span>In the current Kolkata real estate market (March 29, 2025), investors can expect a mix of opportunities with a focus on mid-segment and high-end properties, with peripheral and northeast submarkets leading in launches, and potential for good ROI through quality projects and infrastructure growth. 
+          Here's a more detailed look:
+          Market Dynamics & Trends:
+          Growth & Stability:
+          Kolkata's real estate market has shown robust growth and stability, making it attractive for investors and homebuyers. 
+          Launch Trends:
+          The market saw 4,050-unit launches in Q4-24, a 23% growth over the previous quarter, with peripheral submarkets (39%) leading, followed by northeast (33%) and south Kolkata (17%). 
+          Segment Dominance:
+          Mid-segment properties dominated launches (58%), followed by high-end and luxury (24%) and affordable (18%). 
+          Price Appreciation:
+          Capital values increased 8-9% quarter-over-quarter in the northeast. 
+          Rental Growth:
+          Rentals grew 2-3% quarter-over-quarter across the northeast and southeast. 
+          Infrastructure:
+          Rapid infrastructure growth, including transportation, better connectivity, and the smart city concept, has contributed to the market's buoyancy. </p>
+    </div>
+    <br>
+    <div id="Mumb-container">
+      <h1 id="Bombay">Mumbai</h1>
+      <div>
+        <img id="Mumbai-firstimage" src="/images/Mumbai-imageone.jpg">
+      </div>
+      <p id="reason-bg"><span id="reasons">Reasons to Invest/Buy a Home in Mumbai:</span>Navi Mumbai is known for its planned infrastructure, wide roads, and efficient public transport system. Key infrastructure highlights include:
+
+        Mumbai Trans-Harbour Link (MTHL): now officially operational, has significantly reduced travel time between Mumbai and Navi Mumbai. This 22 km sea bridge, India’s longest, connects Sewri in Mumbai to Nhava Sheva in Navi Mumbai, enhancing regional connectivity and boosting real estate demand in surrounding areas. This improved accessibility is expected to boost economic activities and stimulate real estate development in Navi Mumbai and surrounding areas. 
+        Navi Mumbai Metro: Connecting major nodes like Vashi, Belapur, and Taloja, improving intra-city connectivity.<br>
+        Proposed Navi Mumbai International Airport: Expected to boost real estate demand and appreciation.<br>
+        Mumbai-Pune Expressway Access: Making Navi Mumbai an attractive hub for professionals working in both cities.<br>
+        Navi Mumbai is rapidly evolving into a thriving commercial and IT hub, attracting professionals and boosting demand for flats for sale in Navi Mumbai. Key business districts include:<br>
+
+        Belapur CBD: A major commercial hub housing top corporate offices.<br>
+        Airoli & Ghansoli: Home to major IT parks and corporate headquarters.<br>
+        Turbhe & Taloja: Emerging industrial zones attracting investments.
+      </p>
+      <br>
+      <p id="roi-bg"><span id="ROI">Return on Investment:</span>Mumbai's real estate market historically offers strong ROI, with prime locations showing annual appreciation of 7-8% and emerging suburbs potentially reaching 9-11%, though ROI can vary based on location, property type, and market conditions. 
+        Key Areas for Investment:
+        Western and Central Suburbs: These areas have maintained their dominance in property registrations. 
+        Chembur: Easily accessible via Eastern Express Highway, Chembur offers excellent connectivity to major commercial hubs. 
+        Areas along the Western and Central Suburbs: These areas are emerging as key hotspots for real estate investment. 
+      </p>
+    </div>
+    <br>
+    <!--Delhi-->
+    <div id="Delhi-container">
+      <h1 id="Delhi">Delhi</h1>
+      <div>
+        <img id="delhi-firstimage" src="/images/delhi-imageone.jpg">
+      </div>
+      <p id="reason-bg"><span id="reasons">Reasons to Invest/Buy a Home in Delhi:</span>Delhi’s property market is expected to thrive in 2025 due to several factors. The city’s expanding metro network, which now connects places like Dwarka and Noida seamlessly, has opened new corridors for growth. Additionally, government policies promoting affordable housing and incentives for first-time buyers have created a favourable environment for real estate investment. The demand for rental properties is also increasing, especially in areas near corporate hubs like Aerocity and Saket, making it an attractive prospect for those looking for regular income.
+        Delhi’s infrastructure growth is among the key drivers of its real estate sector. The completion of major projects such as the Dwarka Expressway and upcoming metro expansions have enhanced connectivity across the National Capital Region (NCR). Proximity to landmarks like India Gate, Delhi Airport, and Pragati Maidan adds to the city’s appeal for both residential and commercial investments. With planned smart city initiatives and seamless access to Gurugram and Noida, investors are increasingly attracted to Delhi real estate for long-term gains.
+      </p>
+      <br>
+      <p id="roi-bg"><span id="ROI">Return On Investment:</span>As tracked by CBRE, Delhi-NCR recorded the maximum sales of luxury homes at 10,500 units in 2024, compared to 5,525 units in the preceding year. The region's market reflected a strong 90% y-o-y growth, largely driven by a growing number of affluent buyers seeking spacious homes with premium amenities that cater to their multifaceted lifestyles. The region's robust infrastructure development, including the Dwarka Expressway, Jewar Airport, and RRTS, ensures future growth potential and continued demand.
+        Luxury homes in NCR have consistently delivered strong capital appreciation and rental yields. Areas like Golf Course Road in Gurugram, Dwarka Expressway, SPR corridor, Noida Sector 150, and Siddharth Vihar in Ghaziabad are emerging as hotspots, offering significant ROI due to increasing demand and healthy supply of premium properties.The usual ROI from key residential markets at best is between 2-4%, while a commercial property in Delhi NCR area provides anywhere between 5% and 13% PA depending on property type, location, tenant profile etc. It's a great investment option for people who are looking for cash flow.
+      </p>
+    </div>
+    <br>
+    <div id="Bangalore-container">
+      <h1 id="Bangalore">Bangalore</h1>
+      <div>
+        <img id="bangalore-firstimage" src="/images/bangalore-imageone.jpg">
+      </div>
+      <p id="reason-bg"><span id="reasons">Reasons to Invest/Buy a Home in Bangalore:</span>Hailed as the IT capital of India, Bangalore has a robust economic foundation that attracts companies from around the globe. Home to numerous MNCs and startups, the city’s thriving tech industry fuels a constant growth of professionals and businesses, driving demand for housing. This surge in demand makes investing in property in Bangalore a strategic move.
+
+        Moreover, the city’s infrastructure development projects further enhance its investment appeal. The expansion of the metro network and improvements in road connectivity are game changers. For instance, the new metro lines connecting key residential areas to tech parks – especially those along the Outer Ring Road and in Whitefield – will drastically cut commute times, making these areas more desirable for professionals. As a result, property values and rental yields in these regions have soared.
+        Bangalore has a long-standing history of property value appreciation, making it a reliable market for long-term investments. Bangalore’s property market has consistently demonstrated steady growth, with a rise of 19% in the January-March quarter. The potential for rental income generation through investment properties is significant, thanks to the city’s robust rental market and high demand for quality housing.
+        Bangalore’s booming job market attracts many potential tenants, particularly in the IT and tech sectors. The ever-growing workforce due to companies such as Microsoft, Wipro, JPMorgan Chase and Accenture, drives demand for rental properties in Bangalore – ensuring a steady stream of rental income for property owners.
+
+        Furthermore, the capital city of Karnataka offers diverse housing options catering to different budgets and needs, from luxury apartments to affordable housing – making it an ideal location for investors seeking varied opportunities in the Bangalore real estate market.
+      </p>
+      <br>
+      <p id="roi-bg"><span id="ROI">Return on Investment:</span>It showed that over the past decade, Bengaluru's housing market has delivered an impressive 8.98% return on investment.In Bangalore, the holding period required to maximize ROI depends on the type of property and the investor’s financial goals. Generally, a holding period of 7 to 12 years tends to offer the most substantial returns due to the compounded appreciation of property values.
+        For those seeking substantial capital appreciation, a holding period of 10-15 years is recommended. Historically, properties held for over a decade in Bangalore have witnessed a 2x to 3x appreciation. Key areas that promise high returns over this period include the tech-driven corridors of Southeast Bangalore and the newly developing North Bangalore​.
+        Investors looking for steady growth and rental income will find this holding period ideal. Property values tend to appreciate by 7-12% annually during this phase, particularly in areas like Whitefield and Hebbal. Additionally, rental income contributes to overall ROI, pushing the total returns to around 10-15%.</p>
+    </div>
+    <br>
+    <br>
+    <div id="buyer-books">
+    <h1 id="books">Books To Read As A Home Buyer</h1>
+    <ul>
+      <li id="author"><a id="link" href="https://www.amazon.in/FIRST-TIME-BUYER-Scott-Trench/dp/0997584785/ref=sr_1_3?crid=3M58T5U2TBCUD&dib=eyJ2IjoiMSJ9.0_ypMHX8Sjf7CaPi06aA52uodPsWOPB4zxhchw88Juh1Q6tFW1v-zTu34dDv-z54XT6qa3qSOZuv_bkOo1Y1aKx--wHvhQzyZMEE0SwRltYkTeHfnGpjLxw2fotR_f9-9LFqm3AKM_ESkauo978km_7eTmUlB-rM9PdfPTGI1cdOPDdyL5U4FRR-32hcTUlVDcoyJo-Ufff5S7Qttk7fhV7Ww6jnudBZZHkHqk5KxQc.GSkX5_JuJvpUjO1SxPvL6DgrUQSbdAbwT55caAXX8p8&dib_tag=se&keywords=first+time+home+buyer&qid=1726569914&sprefix=first+time+home+buyer%2Caps%2C263&sr=8-3" target="_blank">First Time Home Buyer</a>- By Mindy Jensen, Scott trench</li>
+        <br>
+        <li id="author"><a id="link" href="https://www.amazon.in/Home-Buying-Dummies-Eric-Tyson-ebook/dp/B086BXBRJ3/ref=sr_1_1?crid=1X5IV3B05BDDY&dib=eyJ2IjoiMSJ9.TlHkWkABzQnhP8-pyujImeMFzH7NAdVCGnAsIGB1CkQ2W8sEWIcW3Jw8UI51mIdiafXvLTQ3CYZ6QLVICg3gTLa_z-LnfRe-38h0s7CuE2CM0CF15HRdfzBzV98FgN3A9Bj09P7EXY6qRaTVRd1kQh5oF-671_QqXVhKolsKsd5MQv3LzaSYhcxCOXjHX3h6pqnsEAcexli_j8_x9mJYZYke5bpKarxKWD3cyGhVUQ4.iKQvI08cb4vQKs7sHkZ3SHF-2e09USsioASBT4F95Fo&dib_tag=se&keywords=home+buying+kit+for+dummies&qid=1725879984&sprefix=home+buying+kit+for+dummies%2Caps%2C228&sr=8-1" target="_blank">Home Buying Kit for Dummies</a>- By <b>Ray Brown, Eric Tyson</b></li>
+        <br>
+        <li id="author"><a id="link" href="https://www.amazon.in/Nolos-Essential-Guide-Buying-Guidel/dp/1413330053/ref=sr_1_3?crid=34DEHJA419G2X&dib=eyJ2IjoiMSJ9.x3hJ5fcHP6N20cjZieWstA_ErxmZ5wufLpSDX6mH_4vRFzk4tiMOQUJWIa5fCiLN.EShVDGuRBAb6s2oEl3qxAc5T20AB-H_Vq7l2kB-SGcI&dib_tag=se&keywords=Nolo+essential+guide+for+buying+home+first+time&nsdOptOutParam=true&qid=1725880074&sprefix=nolo+essential+guide+for+buying+home+first+tim%2Caps%2C216&sr=8-3" target="_blank">NOLO's Essential Guide to Buying Your First Home</a>- By <b>Eric Tyson</b></li>
+        <br>
+        <li id="author"><a id="link" href="https://www.amazon.in/Questions-Every-First-Time-Should-Fourth/dp/1524763438/ref=sr_1_1?crid=N69YNQ22ZVA1&dib=eyJ2IjoiMSJ9.VGAFV8JylXEFQACZj55oKoprqUxqOzHDu2KRNWIYgXc.8UyrBknglrVzFCVW-rhpNNYxQDXO8ZQNOimjbcukkR0&dib_tag=se&keywords=100+questions+every+first+time+home+buyer+should+ask&nsdOptOutParam=true&qid=1725880239&sprefix=100+questions+every+first+time+home+buyer+should+ask%2Caps%2C217&sr=8-1" target="_blank">100 Questions Every First-Time Home Buyer Should Ask</a>- By <b>Ilyce R. Glink</b></li>
+        <br>
+        <li id="author"><a id="link" href="https://www.amazon.in/Keep-Calm-Just-Real-Estate/dp/0762457554/ref=sr_1_1?crid=ZE65CVALXOA8&dib=eyJ2IjoiMSJ9.JSReesixVJymXu8GV9Rfyw.XFjQVu7VhtZk0Bpb6LWp-To_vKGsxhbax9hm5sxeJKk&dib_tag=se&keywords=Keep+Calm+.+.+.+It%27s+Just+Real+Estate%3A+Your+No-Stress+Guide+to+Buying+a+Home&nsdOptOutParam=true&qid=1725880403&sprefix=keep+calm+.+.+.+it%27s+just+real+estate+your+no-stress+guide+to+buying+a+home%2Caps%2C219&sr=8-1" target="_blank">Keep Calm . . . It's Just Real Estate: Your No-Stress Guide to Buying a Home</a>- By <b>Egypt Sherrod</b>
+        </li>
+    </ul>
+  </div>
+    <br>
+    <br>
+     <!--icons-->
+     <div id="icons">
+      <h1 id="follow-heading">Follow us at: <a target="_blank" href="https://www.facebook.com/share/1AfgpaXbYT/"><i class="fa-brands fa-facebook"></i></a>
+      <a target="_blank" href="https://www.instagram.com/guidance080924?igsh=MTk1Y25iamNob2cyOA=="><i class="fa-brands fa-instagram"></i></a></h1> 
+  </div>
+  <br>
+  <br>
+  <!--Tags-->
+  <div id="tags">
+      <h1 id="tag-title">Tags:</h1>
+      <p id="hashtags">Complex Flat in South Kolkata, Flats for Sale,
+         Residential Flats in Kolkata, Platforms for Home Developers/Sellers,<br>
+         Real Estate Investments, Top Cities to Invest in Real Estate,<br>
+         Complex Apartment for Sale in Kolkata , Complex Apartment Building
+      </p>
+  </div>
+    

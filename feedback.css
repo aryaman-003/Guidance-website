@@ -1,0 +1,106 @@
+body{
+    background-image: url(/images/cement-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*for navbar*/
+#brand-name{
+    padding-left: 10px;
+    color: #851e3e;
+    font-size: 30px;
+}
+#navbar{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #D1C4EC;
+    position: fixed;
+}
+@media(max-width: 550px){
+    #navbar{
+        display: flex;
+        flex-direction: column;
+    }
+}
+#navbar ul{
+    display: flex;
+    gap: 1rem;
+    padding-right: 10px;
+
+}
+#navbar ul a:hover{
+    cursor: pointer;
+    background-color: aqua;
+    transition: 1s;
+}
+#buyers{
+    color: #ff3377;
+}
+#sellers{
+    color: #ff3377;
+}
+#about{
+    color: #ff3377;
+}
+#blogs{
+    color: #ff3377;
+}
+#feedback-nav{
+    color: #ff3377;
+}
+/**/
+/**/
+#feedback-title{
+    text-align: center;
+    font-size: 45px;
+}
+#last-para{
+    text-align: center;
+}
+input[type="radio"]{
+    -webkit-appearance: radio;
+}
+#feedback{
+    font-size: 25px;
+}
+#comment-title{
+    font-size: 25px;
+}
+#submit-btn{
+    width: 50px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+}
+#submit-btn:hover{
+    cursor: pointer;
+}
+#feedback-vd{
+    width: 100%;
+    height: 350px;
+}
+/*icons*/
+#follow-heading{
+    font-size: 30px;
+}
+.fa-facebook{
+    font-size: 25px;
+}
+.fa-instagram{
+    font-size: 25px;
+}
+/*tags*/
+#tags{
+    display: flex;
+    gap: 1rem;
+}
+#tag-title{
+    font-size: 30px;
+}
+#hashtags{
+    background-color: #84a98c;
+    font-size: 18px;
+}

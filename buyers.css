@@ -1,0 +1,192 @@
+body{
+    background-color: #AFDDE5;
+}
+/*for navbar*/
+#brand-name{
+    padding-left: 10px;
+    color: #851e3e;
+    font-size: 30px;
+}
+#navbar{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #D1C4EC;
+    position: fixed;
+}
+@media(max-width: 550px){
+    #navbar{
+        display: flex;
+        flex-direction: column;
+    }
+}
+#navbar ul{
+    display: flex;
+    gap: 1rem;
+    padding-right: 10px;
+
+}
+#navbar ul a:hover{
+    cursor: pointer;
+    background-color: aqua;
+    transition: 1s;
+}
+#buyers{
+    color: #ff3377;
+}
+#sellers{
+    color: #ff3377;
+}
+#about{
+    color: #ff3377;
+}
+#blogs{
+    color: #ff3377;
+}
+#feedback-nav{
+    color: #ff3377;
+}
+/*form fillup*/
+#enlistment-heading{
+    text-align: center;
+    font-size: 50px;
+}
+#enlistment-heading:hover{
+    transition: 0.5s;
+}
+#form{
+    text-align: center;
+    font-size: 40px;
+}
+#enlistment-form{
+    background-image: url(/images/luminous-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 45px;
+    color: white;
+    font-size: 30px;
+}
+input[type="radio"]{
+    -webkit-appearance: radio;
+}
+input[type=submit] {
+background-color: purple;
+border-radius: 15px;
+width: 95px;
+text-align: center;
+}
+/*Buyer section css*/
+
+/*for all cities*/
+#reasons{
+    font-size: 25px;
+    font-weight: bold;
+}
+#ROI{
+    font-size: 25px;
+    font-weight: bold;
+}
+#reason-bg{
+    background-color: aqua;
+}
+#roi-bg{
+    background-color: lightgreen;
+}
+/**/
+#investment-cities{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+/**/
+
+/*kolkata*/
+#Kol-container{
+    width: 100%;
+}
+#kol{
+    font-size: 25px;
+}
+#kol-firstimage{
+    width: 100%;
+    height: 450px;
+}
+
+/*Mumbai*/
+#Mumb-container{
+    width: 100%;
+}
+#Bombay{
+    font-size: 25px;
+}
+#Mumbai-firstimage{
+    width: 100%;
+    height: 400px;
+}
+
+
+/*Delhi*/
+#Delhi-container{
+    width: 100%;
+}
+#Delhi{
+    font-size: 25px;
+}
+#delhi-firstimage{
+    width: 100%;
+    height: 400px;
+}
+
+/*Bangalore*/
+#Bangalore-container{
+    width: 100%;
+}
+#Bangalore{
+    font-size: 25px;
+}
+#bangalore-firstimage{
+    width: 100%;
+    height: 450px;
+}
+
+/*books*/
+#buyer-books{
+    background-color: #A9A9A9;
+}
+#books{
+    text-align: center;
+    font-size: 40px;
+}
+#author{
+    color: white;
+}
+#link{
+    color: blue;
+}
+#link:hover{
+    cursor: pointer;
+}
+/*icons*/
+#follow-heading{
+    font-size: 30px;
+}
+.fa-facebook{
+    font-size: 25px;
+}
+.fa-instagram{
+    font-size: 25px;
+}
+/*tags*/
+#tags{
+    display: flex;
+    gap: 1rem;
+}
+#tag-title{
+    font-size: 30px;
+}
+#hashtags{
+    background-color: #84a98c;
+    font-size: 18px;
+}

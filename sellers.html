@@ -1,0 +1,185 @@
+<!--For seller Section-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/sellers.css" rel="stylesheet"/>
+    <link href="/css/reset.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Seller-Section</title>
+</head>
+<body>
+  <!--Navbar-->
+  <div id="navbar">
+    <p id="brand-name">Guidance</p>
+    <div id="links">
+        <ul>
+            <li><a id="buyers" target="_blank" href="/html/buyers.html">For Buyers</a></li>
+            <li><a id="sellers" target="_blank" href="/html/sellers.html">For Sellers</a></li>
+            <li><a id="feedback-nav" target="_blank" href="/html/feedback.html">Feedback</a></li>
+            <li><a id="blogs" target="_blank" href="/html/blogs.html">Blogs</a></li>
+            <li><a id="about" target="_blank" href="/html/about us.html">About Us</a></li>
+            
+        </ul>
+    </div>
+   </div>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+  <h1 id="seller-title">For Home/Flat Sellers</h1>
+  <br>
+  <div id="seller-message">
+    <p id="seller-opening">If You are a Building Developer/Home Owner and want to sell or rent your Property, We at Guidance will pass you the contact details of only those Prospective Customers whose Requirements exactly match what you have to offer.
+    And you No longer have to Worry about Exorbitant Brokerage, as it does not matter if we help yoy sell a Home/Apartment worth 10 Lakh or 10 Crore because all we shall ask you for our services is Rs 1,000 irrespective of the sale value of your House/Flat.<br>
+    So fill out the Form below and we will Pass on to you Prospective Buyers and help you Build that Client Base of Yours. 
+    </p>
+  </div>
+  <br>
+  <br>
+    <h1 id="enlistment-heading">Enlistment</h1>
+<p id="form">Please enter your Information regarding the kind of Home/Flat you want to Sell:</p>
+<div id="enlistment-form">
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="dcea6b1d-59bd-4d8a-9cde-427732bc350a">
+            <br>
+            <label for="Full Name">Full Name:</label>
+            <input type="text" id="Full Name" name="Full Name" required placeholder="Please enter your full name">
+            <br>
+            <br>
+            <label for="Full Name">Name of your Construction Company(If you are A Builder/Developer):</label>
+            <input type="text" id="Name of Construction Company" name="Name of Construction Company" placeholder="Construction Company Name">
+            <br>
+            <br>
+            <label for="Phone Number">Phone Number-</label> 
+            <input type="tel" name="Phone Number" placeholder="Please enter your number" required>
+            <br>
+            <br>
+            <p id="one-line">Please Choose the kind of home you want to sell:</p>
+            <br>
+            <input type="radio" id="Standalone" name="kind of home" value="Standalone">
+          <label for="Standalone">Apartment in Standalone</label><br>
+          <input type="radio" id="Complex" name="kind of home" value="Complex">
+          <label for="Complex">Apartment in Complex</label><br>
+          <input type="radio" id="Bungalow" name="kind of home" value="Bungalow">
+          <label for="Bungalow">Independent House/Bungalow</label>
+          <br>
+          <br>
+          <label for="location" >Location of Your Property:</label>
+          <input list="locations" name="location" required>
+          <br>
+          <br>
+          <label for="floor">Please select the floor(for Apartments only):</label>
+          <input type="number" name="floor">
+          <br>
+          <br>
+          <label for="Area of home">Area in sqft:</label>
+          <input type="number" name="Area of home" placeholder="Please enter sqft area" required>
+          <br>
+          <label for="Number of rooms">Number of rooms:</label>
+          <input type="number" name="Number of rooms">
+          <br>
+          <label for="Number of bathrooms">Number of bathrooms:</label>
+          <input type="number" name="Number of bathrooms">
+          <br>
+          <br>
+          <h1>Lift Available:</h1>
+          <label for="Lift">
+            <input type="radio" id="Lift" name="Lift" value="Yes"/>
+            Yes
+          </label>
+          <label for="Lift"></label>
+            <input type="radio" id="Lift" name="Lift" value="No"/>
+            No
+          </label>
+          <br>
+          <br>
+          <h1>Parking Available:</h1>
+          <label for="Parking">
+            <input type="radio" id="Parking" name="Parking" value="Yes"/>
+            Yes
+          </label>
+          <label for="Parking"></label>
+            <input type="radio" id="Parking" name="Parking" value="No"/>
+            No
+          </label>
+          <br>
+          <br>
+          <label for="Budget">Selling Price:</label>
+          <input type="number" name="Budget" required placeholder="Please enter max Price">
+          <br>
+          <label for="INR">
+            <input type="radio" id="INR" name="INR" value="Lakh"/>
+            Lakh
+          </label>
+          <label for="INR">
+            <input type="radio" id="INR" name="INR" value="Crore"/>
+            Crore
+          <br>
+          <br>
+          <p>Please Specify the Phase/State Your Property is in</p>
+          <input type="radio" id="under-construction" name="State of Property" value="under-construction">
+          <label for="under-construction">Under Construction</label><br>
+          <input type="radio" id="move-in" name="State of Property" value="move-in">
+          <label for="move-in">Ready to Move in</label>
+          <br>
+          <br>
+          <label>If Under Construction Please State the Tentative Date for Handover:</label>
+          <input type="date" name="time period for possession">
+          <br>
+          <br>
+          <p>If Ready to Move in Please Specify Condition:</p>
+          <input type="radio" id="fully-furnished" name="Condition of property" value="fully-furnished">
+          <label for="fully-furnished">Fully Furnished</label><br>
+          <input type="radio" id="Semi-Furnished" name="Condition of property" value="Semi-Furnished">
+          <label for="Semi-Furnished">Semi-Funished</label><br>
+          <input type="radio" id="Not-Furnished" name="Condition of property" value="Not-Furnished">
+          <label for="Not-Furnished">Not Furnished</label><br>
+          <br>
+          <input type="submit" value="Submit" id="submit">
+        </form>
+    </div>
+    <br>
+    <br>
+    <div id="Contacts">
+      <h1 id="cement-list">Reputed Cement Suppliers In Kolkata:</h1>
+      <br>
+      <ul>
+        <li id="cement-names"><a target="_blank" href="https://www.amritcement.com/">Amrit Cement</a></li>
+        <li id="cement-names"><a target="_blank" href="https://www.maxcement.co.in/">Max Cement</a></li>
+        <li id="cement-names"><a target="_blank" href="https://sites.google.com/view/bengalironstore/home">Bengal Iron and Steel</a></li>
+      </ul>
+      <p id="extra-link">Here is a Link to some more Cement Suppliers in West Bengal:<a id="cement-link" target="_blank" href="https://onsiteteams.com/top-cement-manufacturers-in-bengal/"> https://onsiteteams.com/top-cement-manufacturers-in-bengal/</a></p>
+    </div>
+    <div id="Contacts-two">
+      <h1 id="iron-list">Reputed Iron Suppliers In Kolkata</h1>
+      <br>
+      <ul>
+        <li id="iron-names"><a target="_blank" href="https://www.indianironsteel.com/">Indian Iron and Steel Suppliers</a></li>
+        <li id="iron-names"><a target="_blank" href="https://shreejisteelcorp.com//">Shree Ji Steel</a></li>
+        <li id="iron-names"><a target="_blank" href="https://jlenterprises.framer.website/">J.L.Enterprises</a></li>
+      </ul>
+      <p id="extra-link-two">Here is a Link to some more Iron Suppliers in West Bengal:<a id="iron-link" target="_blank" href="https://www.ambitionbox.com/iron-or-steel-companies-in-kolkata"> https://www.ambitionbox.com/iron-or-steel-companies-in-kolkata</a></p>
+    </div>
+    <br>
+    <br>
+     <!--icons-->
+     <div id="icons">
+      <h1 id="follow-heading">Follow us at: <a target="_blank" href="https://www.facebook.com/share/1AfgpaXbYT/"><i class="fa-brands fa-facebook"></i></a>
+      <a target="_blank" href="https://www.instagram.com/guidance080924?igsh=MTk1Y25iamNob2cyOA=="><i class="fa-brands fa-instagram"></i></a></h1> 
+  </div>
+  <br>
+  <br>
+  <!--Tags-->
+  <div id="tags">
+      <h1 id="tag-title">Tags:</h1>
+      <p id="hashtags">Home Buyers, Flats for Sale,
+         2bhk flats in Kolkata, Platforms for Home Developers/Sellers,<br>
+         Real Estate Investments, Top Cities to Invest in Real Estate,<br>
+         3bhk Flats in Kolkata, 3bhk Flats in Kolkata, 2bhk Flats in South Kolkata
+      </p>
+  </div>
+</body>
+</html>
