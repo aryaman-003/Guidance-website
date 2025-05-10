@@ -86,21 +86,21 @@ text-align: center;
 #reasons{
     font-size: 25px;
     font-weight: bold;
-    font-family: "Saira Condensed", sans-serif;
-  font-weight: 100;
-  font-style: normal;
 }
 #ROI{
     font-size: 25px;
     font-weight: bold;
+}
+#reason-bg{
     font-family: "Saira Condensed", sans-serif;
   font-weight: 100;
   font-style: normal;
-}
-#reason-bg{
     background-color: aqua;
 }
 #roi-bg{
+    font-family: "Saira Condensed", sans-serif;
+  font-weight: 100;
+  font-style: normal;
     background-color: lightgreen;
 }
 /**/
